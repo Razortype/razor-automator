@@ -1,0 +1,24 @@
+{
+    
+    "general": {
+
+        "logger": {
+            "log_type": "CONSOLE",
+            "log_path": ["data", "runtime.log"]
+        },
+
+        "directories": {
+            "patterns_path": ["data", "patterns.json"]
+        }
+
+    },
+    
+    "dev": {
+
+    },
+
+    "pattern": {
+
+    }
+
+}

@@ -1,0 +1,24 @@
+{
+    "sword_clicker": {
+        "path": {
+            "1": {"func": "move_cursor_to_mid"},
+            "2": {
+                "func": "click", 
+                "kwargs": {"clicks": 1},
+                "times": 1}
+        },
+        "times": "inf"
+    },
+
+    "youtube_test_2": {
+        "path": {
+            "1": {"func":"wait", "kwargs": {"second": 2}},
+            "2": {"func":"hotkey", "kwargs": {"keys": ["ctrl", "l"]}},
+            "3": {"func":"write", "kwargs": {"message":"https://www.youtube.com/results?search_query=money+trees+anna+wise+loop", "interval":0}},
+            "4": {"func":"press", "kwargs": {"key":"enter"}},
+            "5": {"func":"wait", "kwargs": {"second": 4}},
+            "6": {"func":"press", "kwargs": {"key":"tab"}, "times":27},
+            "7": {"func":"press", "kwargs": {"key":"enter"}}
+        }
+    }
+}
