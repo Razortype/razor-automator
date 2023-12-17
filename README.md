@@ -285,7 +285,7 @@ style = "display:flex; flex-direction:column; align-items:center;">
   border-radius: 100%;
   overflow: hidden;">
         <a href="https://github.com/Razortype">
-            <img src="https://avatars.githubusercontent.com/u/55176611?v=4" alt="Logo">
+            <img src="https://avatars.githubusercontent.com/u/55176611?v=4" width=200 height=200 alt="Logo">
         </a>
     </div>
     <br>
